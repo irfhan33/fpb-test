@@ -5,6 +5,7 @@ import Carousel from "./../Carousel.js/Carousel";
 import Description from "./../Description/Description";
 import Title from "./../Title/Title";
 import Review from "./../Review/Review";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         <Description />
         <Title />
         <Review />
-        <Footer>Footer</Footer>
+        <Footer />
       </Content>
     </Container>
   );
@@ -54,9 +55,15 @@ const Content = styled.div`
       "review"
       "footer";
   }
-`;
 
-const Footer = styled.div`
-  grid-area: footer;
-  background: red;
+  @media (max-width: 600px) {
+    grid-template-columns: 100%;
+    grid-template-rows: 70vh auto auto auto auto;
+    grid-template-areas:
+      "carousel"
+      "title"
+      "description"
+      "review"
+      "footer";
+  }
 `;

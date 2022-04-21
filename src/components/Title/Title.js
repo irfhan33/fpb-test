@@ -57,6 +57,11 @@ const MainTitle = styled.h3`
   @media (max-width: 768px) {
     max-width: 100%;
   }
+
+  @media (max-width: 500px) {
+    line-height: 22px;
+    font-size: 18px;
+  }
 `;
 const Price = styled.h1`
   font-size: 2rem;

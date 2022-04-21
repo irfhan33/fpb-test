@@ -19,8 +19,16 @@ const Description = () => {
         1* For Xbox One Wireless Game Controller <br />
         1* For Xbox One Wireless Game Controller <br />
         1* For Xbox One Wireless Game Controller <br />
+        1* For Xbox One Wireless Game Controller <br />
+        1* For Xbox One Wireless Game Controller <br />
+        1* For Xbox One Wireless Game Controller <br />
+        1* For Xbox One Wireless Game Controller <br />
+        1* For Xbox One Wireless Game Controller <br />
       </Paragraph>
       <Paragraph>Note:</Paragraph>
+      <Paragraph>
+        The Colors Deviation Might Different Due to Different Monitor Settings
+      </Paragraph>
       <Paragraph>
         The Colors Deviation Might Different Due to Different Monitor Settings
       </Paragraph>
@@ -30,7 +38,7 @@ const Description = () => {
 
 export default Description;
 
-const SubTitle = ({ children }) => {
+export const SubTitle = ({ children }) => {
   return <SubtitleSc>{children}</SubtitleSc>;
 };
 
@@ -44,6 +52,7 @@ const Container = styled.div`
   gap: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 
   @media (max-width: 768px) {
     padding: 20px 0;
