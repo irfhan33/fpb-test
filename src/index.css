@@ -1,13 +1,19 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;1,500;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgba(49, 53, 59, 0.96);
+}
+
+a {
+  color: #ffffffcc;
+  text-decoration: none;
 }
